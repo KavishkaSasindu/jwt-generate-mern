@@ -48,12 +48,7 @@ const Form = () => {
         </div>
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form
-            className="space-y-6"
-            action="#"
-            method="POST"
-            onSubmit={handleData}
-          >
+          <form className="space-y-6" method="POST" onSubmit={handleData}>
             <div>
               <label
                 htmlFor="username"
@@ -110,7 +105,6 @@ const Form = () => {
             Already have an account{" "}
             <Link
               to={"/logIn"}
-              href="#"
               className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
             >
               SignIn
